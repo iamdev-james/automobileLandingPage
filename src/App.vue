@@ -3,7 +3,7 @@
   <div id= 'showcase-container'>
   <Header @theme = 'changeTheme($event)' id= 'header'/>
   <div id= 'showcase'>
-    <h1 id= 'lead-text'>Handcrafted,home-made masterpieces</h1>
+    <h1 id= 'lead-text'>We Share the Pride in Your Ride</h1>
     <form id= 'form'>
     <input type='email' id= 'email' placeholder= '  Enter your email address'>
     <div>
@@ -136,6 +136,7 @@ export default {
   justify-content: center;
 }
 #lead-text {
+  font-size: 45px;
   margin-bottom: 50px;
   animation-name: movefromright;
   animation-duration: 2s;
@@ -255,6 +256,9 @@ export default {
     grid-template-columns: repeat(2, 320px);
     margin-left: 8%;
   }
+  #lead-text {
+    font-size: 30px;
+  }
   #productImg {
     width: 320px;
   }
@@ -262,10 +266,10 @@ export default {
     margin-left: 16%;
   }
   #features {
-    width: 75vw;
+    width: 85vw;
   }
   .icon {
-    margin-right: 79px;
+    margin-right: 85px;
   }
   #features-block {
     justify-content: space-between;

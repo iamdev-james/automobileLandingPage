@@ -10,8 +10,8 @@
     <div @click= 'toggleNav()' id= 'nav-icon'><i class="fas fa-bars"></i></div>
     </section>
     <section v-show= 'showNav' id='nav-bar'>
-      <a href= '#' class= 'nav-link nav-linksec1'>Features</a>
-      <a href= '#' class= 'nav-link nav-linksec2'>Pricing</a>
+      <a href= '#features' class= 'nav-link nav-linksec1'>Features</a>
+      <a href= '#product-exhibition' class= 'nav-link nav-linksec2'>Pricing</a>
       <a href= '#' class= 'nav-link nav-linksec1'>Contact</a>
     </section>
   </div>
@@ -164,9 +164,12 @@ export default {
     #header {
       flex-direction: column;
     }
+    #headerName {
+      font-size: 23px;
+    }
     #header-img {
     height: 55px;
-    width: 80px;
+    width: 70px;
     color: white;
     padding-right: 0px;
     }
@@ -185,6 +188,7 @@ export default {
     }
   #changeTheme {
       margin-left: 0px;
+      margin-right: 4px;
     }
     #header-nav {
       width: 100vw;
